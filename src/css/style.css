@@ -1,0 +1,49 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/flatpickr.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.k-grid tbody > tr:not(.k-detail-row):hover {
+  background-color: #eb7a06;
+}
+
+.numberic-right input,
+.numberic-right {
+  text-align: right !important;
+}
+
+.k-checkbox:checked,
+.k-checkbox.k-checked {
+  border-color: #ff6358 !important;
+  background-color: #ff6358 !important;
+}
+
+#sidebar .space-y-8 button:hover > span {
+  border-color: #ff9f3e;
+}
+
+/* Chinh Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6a6a6a;
+  border: 1px solid #6a6a6a;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0px auto;
+}
+/* ::-webkit-scrollbar-track {
+  background: rgb(47, 47, 47);
+} */
